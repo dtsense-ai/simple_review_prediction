@@ -3,7 +3,7 @@ import joblib
 import pandas as pd
 import plotly.express as px
 
-model = joblib.load('model.pkl')
+model = joblib.load('model-2.pkl')
 
 st.title('Sentiment Prediction')
 
